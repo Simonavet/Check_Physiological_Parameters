@@ -1,6 +1,6 @@
                                                     PhysiCheck – Vet 1.0
 
-This is a personal project that shows the user if the physiological parameters of different animal species are low, normal or high. \  
+This is a personal project that shows the user if the physiological parameters of different animal species are low, normal or high.   
 I created it thinking to help veterinary students and veterinarians. 
 This is an application that I would have liked to have it during my studies in veterinary medicine and my short career as a veterinarian at the veterinary emergency hospital.\
 Sure, a good veterinary doctor can memorize the normal physiological parameters of the animals that he/she usually works with, but it happens, especially in pet clinics to have special patients, like exotic animals, or in zoos, there are a lot of species. So, in these cases an application like this is very useful. The vet just takes out his smartphone, introduces the measured values and gets the answers.\
