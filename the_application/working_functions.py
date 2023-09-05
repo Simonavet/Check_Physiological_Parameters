@@ -6,6 +6,7 @@ dog = Dog()
 cat = Cat()
 guinea_pig = Guinea_pig()
 lion = Lion()
+llama = Llama()
 
 print('Name specie')
 x = str(input())
@@ -41,6 +42,10 @@ elif x == 'lion':
     print(f'Heart beat: '), lion.lion_heart_beat(lhb=int(input()))
     print(f'Temperature: '), lion.lion_temperature(lt=float(input()))
 
+elif x == 'llama':
+    print(f'Respiratory rate: '), llama.llama_respiration(llr=int(input()))
+    print(f'Heart beat: '), llama.llama_heart_beat(llhb=int(input()))
+    print(f'Temperature: '), llama.llama_temperature(llt=float(input()))
 
 else:
     print('I do not know this specie')

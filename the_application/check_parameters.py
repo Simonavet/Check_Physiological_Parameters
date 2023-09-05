@@ -24,6 +24,7 @@ class Horse:
         else:
             print('The temperature is high')
 
+
 class Bovine:
 
     def bovine_respiration(self, br):
@@ -158,7 +159,31 @@ class Lion:
             print('The temperature is high')
 
 
+class Llama:
 
+    def llama_respiration(self, llr):
+        if llr < 10:
+            print('The respiratory rate is low')
+        elif 10 <= llr <= 30:
+            print('The respiratory rate is normal')
+        else:
+            print('The respiratory rate is high')
+
+    def llama_heart_beat(self, llhb):
+        if llhb < 60:
+            print('The heart beat rate is low')
+        elif 60 <= llhb <= 99:
+            print('The heart beat rate is normal')
+        else:
+            print('The heart beat rate is high')
+
+    def llama_temperature(self, llt):
+        if llt < 37.2:
+            print('The temperature is low')
+        elif 37.2 <= llt <= 38.6:
+            print('The temperature is normal')
+        else:
+            print('The temperature is high')
 
 
 
